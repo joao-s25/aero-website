@@ -10,8 +10,12 @@ background-image: linear-gradient(to right, rgb(17, 185, 101), rgb(72, 255, 163)
 
 .container-fluid{
 padding: 0px;
+
 }
 
+.row{
+    margin: 0;
+}
 
 
 
@@ -53,11 +57,14 @@ font-weight: lighter;
 border-radius: 15px;
 background-image: linear-gradient(to left, rgba(127, 162, 175, 0.4), rgba(168, 176, 180, 0.5));
 
+align-content: center;
+
 box-shadow: 0 7px 7px rgba(46, 46, 46, 0.2);
 
 margin: 50px;
 padding: 12px;
 
+position: relative;
 
 border: 3px outset rgba(180, 180, 180, 0.3);
 
@@ -65,6 +72,11 @@ border: 3px outset rgba(180, 180, 180, 0.3);
 
 .quad:hover{
 background-image: linear-gradient(to left, rgba(132, 197, 221, 0.4), rgba(168, 176, 180, 0.5));
+
+
+transform: translatey(-2px);
+transition: 1000ms;
+
 
 box-shadow: 0 7px 7px rgba(37, 37, 37, 0.2);
 
@@ -106,9 +118,21 @@ box-shadow: 0 7px 7px rgba(46, 46, 46, 0.2);
 }
 
 
+.bar{
+    height: auto;
+
+
+padding: 10px;
+margin: 0;
+
+}
+
+
+
+
 
 .imgr {
 border-radius: 10px;
-max-width: 100%;
+width: 100px;
 height: auto;
 }
